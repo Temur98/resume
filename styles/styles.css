@@ -206,7 +206,9 @@ main .container {
 }
 
 .experience-mini-block .company-details a {
-    text-decoration
+    text-decoration: none;
+    color: black;
+}
 
 .experience-mini-block .company-details li {
     display: flex;
@@ -214,9 +216,7 @@ main .container {
     margin-left: 10px;
 }
 
-: none;
-    color: black;
-}.experience-mini-block .company-details img {
+.experience-mini-block .company-details img {
     width: 16px;
     height: 16px;
     margin-right: 2px;
@@ -287,14 +287,4 @@ main .container {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 10px;
-}
-
-.skills-block ul li {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 7px;
-    border: 2px solid lightgrey;
-    font-weight: 700;
-    margin: 5px;
 }
